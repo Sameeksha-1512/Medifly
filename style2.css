@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 40px;
+    text-align: center;
+ background: rgba(129, 63, 144, 0.964);
+    color: #180124;
+}
+
+/* 📦 Main content card */
+.container {
+    width: 90%;
+    max-width: 950px;
+
+    margin: auto;
+    padding: 25px;
+
+    background: rgba(160, 95, 221, 0.585);
+
+    border: 2px solid #180225;
+    border-radius: 18px;
+
+    box-shadow: 0 6px 20px rgba(0, 27, 41, 0.18);
+}
+
+/* 🖋️ Heading */
+h1 {
+    color: #29013e96;
+
+    font-size: 42px;
+    letter-spacing: 2px;
+
+    margin-bottom: 8px;
+}
+
+/* 📝 Subtitle */
+p {
+    color: #001B29;
+    font-size: 16px;
+}
+
+/* 🗺️ Map styling */
+#map {
+    height: 400px;
+    width: 100%;
+
+    margin: 25px 0;
+
+    border-radius: 16px;
+
+    border: 3px solid #3e023b;
+
+    box-shadow: 0 4px 14px rgba(55, 1, 68, 0.433);
+}
+
+/* 🧾 Inputs and dropdowns */
+input,
+select {
+    width: 80%;
+
+    padding: 12px;
+    margin: 10px 0;
+
+    border-radius: 10px;
+
+    border: 2px solid #390236;
+
+    background: white;
+
+    font-size: 15px;
+
+    color: #001B29;
+
+    box-shadow: 0 2px 8px rgba(0, 27, 41, 0.12);
+}
+
+/* 🔘 Buttons */
+button {
+    padding: 12px 22px;
+    margin: 10px;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    color: #001B29;
+
+    background: white;
+
+    border: 2px solid #001B29;
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    box-shadow: 0 4px 10px rgba(0, 27, 41, 0.25);
+
+    transition: 0.2s ease;
+}
+
+/* ✨ Hover effect */
+button:hover {
+    background: #d9edf7;
+
+    transform: translateY(-2px);
+}
+
+/* 🚁 Drone station dots */
+.drone-icon {
+    width: 12px;
+    height: 12px;
+
+    background: red;
+
+    border-radius: 50%;
+
+    border: 2px solid white;
+
+    box-shadow: 0 0 8px rgba(255, 0, 0, 0.6);
+}

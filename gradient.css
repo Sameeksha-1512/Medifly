@@ -1,0 +1,183 @@
+#loginScreen {
+    text-align: center;
+    margin-top: 60px;
+    color: #dff6ff;
+    display: block;
+}
+
+#map {
+    display: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 40px;
+    text-align: center;
+
+    color: #dff6ff;
+
+    /* 🌌 dark gradient background */
+    background: linear-gradient(
+        135deg,
+        #07131f,
+        #0b2239,
+        #123456
+    );
+
+    min-height: 100vh;
+}
+
+/* 📦 Main dashboard */
+.container {
+    width: 90%;
+    max-width: 950px;
+
+    margin: auto;
+    padding: 30px;
+
+    /* 💙 blue gradient card */
+    background: linear-gradient(
+        145deg,
+        #15324d,
+        #1f4f75
+    );
+
+    border-radius: 22px;
+
+    border: 2px solid #4fdcff;
+
+    box-shadow:
+        0 0 20px rgba(79, 220, 255, 0.25),
+        0 0 40px rgba(79, 220, 255, 0.12);
+
+}
+
+/* ✨ MEDIFLY glowing title */
+h1 {
+    font-size: 48px;
+    letter-spacing: 4px;
+
+    color: #7ee7ff;
+
+    margin-bottom: 12px;
+
+    text-shadow:
+        0 0 4px rgba(79, 220, 255, 0.6),
+        0 0 10px rgba(79, 220, 255, 0.35);
+} 
+
+
+/* 📝 Subtitle */
+p {
+    color: #d7f3ff;
+    font-size: 16px;
+}
+
+/* 🗺️ Map */
+#map {
+    height: 400px;
+    width: 100%;
+
+    margin: 25px 0;
+
+    border-radius: 18px;
+
+    border: 3px solid #4fdcff;
+
+    box-shadow:
+        0 0 18px rgba(79,220,255,0.35);
+
+    overflow: hidden;
+}
+
+/* 🧾 Inputs + dropdown */
+input,
+select {
+    width: 80%;
+
+    padding: 12px;
+    margin: 10px 0;
+
+    border-radius: 12px;
+
+    border: 2px solid #4fdcff;
+
+    background: #10273d;
+
+    color: #dff6ff;
+
+    font-size: 15px;
+
+    outline: none;
+
+    box-shadow:
+        0 0 10px rgba(79,220,255,0.15);
+}
+
+/* ✨ Input focus glow */
+input:focus,
+select:focus {
+    box-shadow:
+        0 0 14px rgba(79,220,255,0.45);
+}
+
+/* 🔘 Buttons stacked vertically */
+button {
+    display: block;
+
+    width: 240px;
+
+    margin: 16px auto;
+
+    padding: 13px 20px;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    color: #dff6ff;
+
+    background: linear-gradient(
+        145deg,
+        #14324c,
+        #1b4d73
+    );
+
+    border: 2px solid #4fdcff;
+    border-radius: 12px;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 0 12px rgba(79,220,255,0.28);
+
+    transition: 0.25s ease;
+}
+
+/* 🚀 Hover effect */
+button:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 0 18px rgba(79,220,255,0.55);
+
+    background: linear-gradient(
+        145deg,
+        #1a4466,
+        #24618f
+    );
+}
+
+/* 🚁 Drone station dots */
+.drone-icon {
+    width: 12px;
+    height: 12px;
+
+    background: #ff3b3b;
+
+    border-radius: 50%;
+
+    border: 2px solid white;
+
+    box-shadow:
+        0 0 10px rgba(255,59,59,0.7);
+}

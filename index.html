@@ -2,17 +2,31 @@
 <html>
 
 <head>
-    <title>Emergency Drone Service</title>
-    <link rel="stylesheet" href="style.css">
+    <title>MEDIFLY</title>
+    <link rel="stylesheet" href="gradient.css">
     <link
      rel="stylesheet"
      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
      />
+     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 </head>
 
 <body>
+<h1>MEDIFLY</h1>
+<p> Emergency drone medical supply delivery system </p>
+    <!-- 🔴 LOGIN SCREEN (PLACE HERE - BEFORE CONTAINER) -->
+<div id="loginScreen">
 
-    <div class="container">
+    <h2>Enter Details</h2>
+
+    <input id="name" type="text" placeholder="Your Name" required>
+    <input id="phone" type="text" placeholder="Your Phone Number" required>
+    <input id="location" type="text" placeholder="Enter Location" required>
+
+    <button onclick="startApp()">Continue</button>
+
+</div>
+<div class="container">
 
         <h1>Emergency Medical Drone Service</h1>
 
@@ -22,21 +36,7 @@
         <div id="map"></div>
 
         <form id="droneForm">
-
-            <input 
-                type="text" 
-                id="name"
-                placeholder="Your Name"
-                required
-            >
-
-            <input 
-                type="text" 
-                id="location"
-                placeholder="Your Location"
-                required
-            >
-
+            
             <select id="supply">
 
                 <option>First Aid Kit</option>
@@ -60,7 +60,6 @@
        <h2 id="dashboard"> System Ready</h2>
     
     </div>
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="script.js"></script>
+    <script type="module" src="js/main.js"></script>
 </body>
 </html>
