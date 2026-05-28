@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Emergency Drone Service</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+     rel="stylesheet"
+     href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     />
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Emergency Medical Drone Service</h1>
+
+        <p>
+            Request immediate medical supplies delivered by emergency drones.
+        </p>
+        <div id="map"></div>
+
+        <form id="droneForm">
+
+            <input 
+                type="text" 
+                id="name"
+                placeholder="Your Name"
+                required
+            >
+
+            <input 
+                type="text" 
+                id="location"
+                placeholder="Your Location"
+                required
+            >
+
+            <select id="supply">
+
+                <option>First Aid Kit</option>
+                <option>Blood</option>
+                <option>Medicine</option>
+                <option>Tourniquet</option>
+                <option>CPR Breathing Barrier</option>
+                <option>BVM</option>
+
+            </select>
+
+            <button type="button" onclick="sendSOS()">
+                SOS
+            </button>
+
+            <button type="submit">
+                Request Drone
+            </button>
+
+        </form>
+       <h2 id="dashboard"> System Ready</h2>
+    
+    </div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

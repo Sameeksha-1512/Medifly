@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    color: blue;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+#map {
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.drone-icon {
+    width: 14px;
+    height: 14px;
+    background: red;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 0 8px rgba(255,0,0,0.6);
+}
